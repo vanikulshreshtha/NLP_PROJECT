@@ -33,7 +33,11 @@ list_of_files = [
     "Dockerfile",
     "setup.py",
     ".dockerignore"
+<<<<<<< HEAD
 ]  
+=======
+]
+>>>>>>> 46f81a1808240494bb958923ebaf7798083a21a1
 
 
 
@@ -52,5 +56,9 @@ for filepath in list_of_files:
             pass
             logging.info(f"Creating empty file: {filepath}")
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 46f81a1808240494bb958923ebaf7798083a21a1
     else:
         logging.info(f"{filename} is already exists")
